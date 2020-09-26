@@ -55,23 +55,20 @@ class OmbiBot(val config: BotConfig) extends TelegramBot with Polling with Callb
   private val INFO = "info"
   private val info =
     """
-    OMBI Bot Commands:
+    اوامر بوت طلب الافلام والمسلسلات:
 
-     - /searchmovie command
-       Example: */searchmovie the dark knight*
+     - /searchmovie الامر
+       مثال: */searchmovie the dark knight*
 
-     - /searchtv command
-       Example: */searchtv star wars rebels*
+     - /searchtv الامر
+       مثال: */searchtv star wars rebels*
 
-     - /search command (tv and movie search)
-       Example: */search batman*
+     - /search الامر (للحبث عن المسلسلات والافلام)
 
-     - /info to see this message
-     - /authinfo to see this authorization message
 
-     - Note: Both search commands work with imdb urls
+     - ملاحظة: جميع الاوامر تعمل مع رابط IMDb
 
-       Example: */searchtv https://www.imdb.com/title/tt6751668*
+       مثال: */searchtv https://www.imdb.com/title/tt6751668*
     """
 
 
